@@ -6,7 +6,7 @@ import Container from './components/container'
 
 export default function Home() {
   return (
-    <div className='px-6 md:px-16 py-3 md:py-8 '>
+    <div className='bg-black px-6 md:px-16 py-3 md:py-8 '>
               <Image src={logo} alt='logo' />
       <Hero />
       <Container />

@@ -13,9 +13,9 @@ const avatars = [avater, avater1, avater2, avater3, avater4, avater5]
 export default function Hero() {
   return (
     <div className='container mx-auto flex flex-col items-center'>
-      <p className='text-[12px] md:text-[20px]'>The Noisy Founders</p>
+      <p className='text-[12px] md:text-[20px] text-white'>The <span className='italic'>Noisy</span> Founders</p>
       <div className='text-center'>
-        <h1 className='text-[34px] lg:text-[64px] font-medium'>The World's Fastest Growing</h1>
+        <h1 className='text-[34px] lg:text-[64px] font-medium text-white'>The World's Fastest Growing</h1>
         <h2 className='gradient-text text-[34px] lg:text-[64px] font-medium'>Founders Newsletter</h2>
         <p className='text-[12px] md:text-[20px] font-medium text-white'>
           Support system for indie founders. Join 1000+ founders on the journey to 10k MRR.
@@ -28,7 +28,7 @@ export default function Hero() {
           className='w-full h-[61px] rounded-[16px] px-4 bg-white text-black outline-none'
         />
         <div className='absolute top-1/2 -translate-y-1/2 right-4 flex items-center gap-2 bg-black cursor-pointer px-6 py-4 rounded-2xl h-[52px]'>
-          <p className='text-sm font-medium'>Subscribe</p>
+          <p className='text-sm font-medium text-white'>Subscribe</p>
           <Image src={cursor} alt='cursor-icon' width={18} height={18} />
         </div>
       </div>

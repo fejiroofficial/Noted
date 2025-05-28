@@ -3,6 +3,7 @@
 :root {
   --background: #ffffff;
   --foreground: #000000;
+   --font-satoshi: 'Satoshi', sans-serif;
 }
 
 
@@ -17,7 +18,7 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-satoshi)
 }
 
 .gradient-text {
